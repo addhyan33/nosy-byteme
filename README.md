@@ -6,11 +6,11 @@ A nosy neighbor for your network: it watches every conversation crossing the wir
 
 ## 1. Project Information
 
-- **Project Name:** NOSY (Network Observation SYstem)
-- **Track / Hackathon:** Smart India Hackathon (SIH)
-- **Problem Statement:** AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
-- **Team Size:** 6
-- **Type:** Software Prototype (AI/ML pipeline + web dashboard)
+Project Title: CropGuard – AI Crop Disease Detection
+PS ID: SIH26145
+PS Title: NOSY-AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
+Category: Software
+Theme: Blockchain & Cybersecurity
 
 ---
 
