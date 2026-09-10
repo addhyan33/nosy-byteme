@@ -94,7 +94,6 @@ This traffic flows through a streaming pipeline: raw flows are aggregated into t
 
 The traffic simulator, feature extractor, and inference engine run as a background thread inside the deployed Streamlit app; the dashboard reads from the same SQLite database in the main thread. This keeps the entire system self-contained in a single deployable process while satisfying the read-only, one-way ingest constraint at the software level — no component ever writes back toward a "traffic source."
 
-Full details: see `PRD.md` and `TRD.md` in this repository.
 
 ---
 
@@ -102,25 +101,34 @@ Full details: see `PRD.md` and `TRD.md` in this repository.
 
 ```
 nosy/
-├── README.md
-├── PRD.md
-├── TRD.md
-├── UI_UX_DESIGN.md
-├── BACKEND_SCHEMA.md
-├── requirements.txt
-├── schema.sql
-├── schema_models.py
-├── simulator.py
-├── features.py
-├── models.py
-├── pipeline.py
-├── app.py
-├── train_models.py
+├── backend/
+│   ├── __init__.py
+│   ├── constants.py
+│   ├── features.py
+│   ├── models.py
+│   ├── pipeline.py
+│   ├── schema_models.py
+│   ├── schema.sql
+│   ├── simulator.py
+│   ├── storage.py
+│   └── train_models.py
 ├── data/
-│   ├── ja3_blocklist.csv
-│   └── dga_reference_words.csv
-├── dashboard_mockup.html
-└── tests/
+│   ├── dga_reference_words.txt
+│   └── ja3_blocklist.csv
+├── frontend/
+│   ├── __init__.py
+│   ├── dashboard.py
+│   └── styles.py
+├── models/                  # trained model artifacts
+├── scripts/
+│   └── reset_demo_data.py
+├── tests/
+│   ├── test_features.py
+│   └── test_models.py
+├── .gitignore
+├── app.py
+├── README.md
+└── requirements.txt
 ```
 
 ---
