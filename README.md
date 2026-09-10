@@ -155,7 +155,7 @@ nosy/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/addhyan33/nosy-app.git
+   git clone https://github.com/addhyan33/nosy-byteme.git
    cd nosy
    ```
 
