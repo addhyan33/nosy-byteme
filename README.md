@@ -135,19 +135,19 @@ nosy/
 
 ## 8. Final Presentation
 
-[Link to presentation slides to be added]
+https://drive.google.com/drive/folders/1iAmor8mRnafUB5HD_R6w4yONdcZfl3CI
 
 ---
 
 ## 9. Demo Video
 
-[Link to demo video to be added]
+https://drive.google.com/drive/folders/10RPIVxX9pmrL30hWSWJM4PH5kOo8ixgn
 
 ---
 
 ## 10. Screenshots / Prototype Photos
 
-[Screenshots of the live dashboard to be added]
+https://drive.google.com/drive/folders/1PCC-1LqDqUkLLJ0ejHIroyiehgURBRIj
 
 ---
 
