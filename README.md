@@ -176,7 +176,7 @@ https://drive.google.com/drive/folders/1PCC-1LqDqUkLLJ0ejHIroyiehgURBRIj
 
 5. Open the local URL shown in the terminal (typically `http://localhost:8501`) — the traffic simulator and detection pipeline start automatically in the background.
 
-**Live deployment:** https://nosy-byteme.streamlit.app/
+**Live deployment:** https://nosy-diode.streamlit.app/
 
 ---
 
