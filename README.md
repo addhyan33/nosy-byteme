@@ -6,9 +6,8 @@ A nosy neighbor for your network: it watches every conversation crossing the wir
 
 ## 1. Project Information
 
-- **Project Title:** CropGuard – AI Crop Disease Detection
+- **Project Title:** NOSY-AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
 - **PS ID:** SIH26145
-- **PS Title:** NOSY-AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
 - **Category:** Software
 - **Theme:** Blockchain & Cybersecurity
 
